@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.7s;
+
+}
+
+body {
+    font-family: tahoma;
+    background-color: #f3f3f4;
+    overflow-x: hidden;
+}
+.container{
+    width: 98%;
+    height: 100%;
+    margin: 2% 1%;
+}
+.nav-bar {
+    display: block;
+    width: 100%;
+    height: 15vh;
+
+    background-color: #70e767;
+    border-radius: 0 0 7px 7px;
+}
+
+h1{
+    position: relative;
+    padding: 4.5vh 0;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.card{
+    flex: 1;
+    overflow: hidden;
+    margin: 0 7px;
+    line-height: 0;
+    padding: 0;
+}
+
+.card>img {
+    position: relative;
+    right: 50%;
+    width: 150%;
+    height: calc(90%);
+    object-fit: cover;
+}
+
+.card span {
+    font-size: 2.8vh;
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.horizontal-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    height: 95%;
+}
+
+
+.footer {
+    display: block;
+    width: 100%;
+    height: 15vh;
+
+    background-color: #c13b2c;
+    border-radius: 7px 7px 0 0;
+}
+
+#top-1 {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    margin-right: -90px;
+}
+
+#top-2 {
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    margin: 0 -10px;
+}
+
+#top-3 {
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-left: -90px;
+}
